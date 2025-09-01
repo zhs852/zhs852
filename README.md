@@ -1,7 +1,10 @@
-# Hello,<br>I'm **Akarin** (@zhs852)
+# Hi 👋<br>I'm **Akarin** (@zhs852)
 
-- 🌱 I’m an indie developer
-
-- 🔭 I'm working on [these projects](https://lab.zhs.moe)
-
-[![Twitter](https://img.shields.io/badge/twitter-%2300acee.svg?&style=for-the-badge&logo=twitter&logoColor=white "Twitter")](https://twitter.com/zhs852)
+```kotlin
+@Serializable
+data class Akarin(
+    val url: String = "https://zhs.moe",
+    val doing: String = "Master of AI @ Monash University",
+    val bases: List<Location> = listOf(Malaysia.KUALA_LUMPUR, China.CHONGQING)
+) : KotlinDev()
+```
